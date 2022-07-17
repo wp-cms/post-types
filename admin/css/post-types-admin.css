@@ -2,26 +2,32 @@ table.post_types td {
     width: 50%;
     vertical-align: top;
 }
+
 table.post_types td.first {
     width: 48%;
     padding: 0 2% 0 0;
 }
+
 table.post_types td label {
     display: block;
     font-weight: bold;
 }
+
 table.post_types p {
     margin: 0 0 15px 0;
     font-size: 12px;
 }
+
 table.post_types input,
 table.post_types select,
 table.post_types textarea {
     width: 100%;
 }
+
 table.post_types input[type='checkbox'] {
-	width: auto;
+    width: auto;
 }
+
 table.post_types label.checkbox {
     display: inline;
     font-weight: normal;

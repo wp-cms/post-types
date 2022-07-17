@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\PostTypes;
+namespace plugin\post_types;
 
 /**
  * Define the locale for this plugin for internationalization.
@@ -11,10 +11,10 @@ namespace Core\PostTypes;
 function load_textdomain() {
 
     load_plugin_textdomain(
-        'post-types',
-        'post-types/languages/'
+	    domain: 'post-types',
+	    plugin_rel_path: 'post-types/languages/'
     );
 
 }
 
-add_action( 'plugins_loaded', 'Core\PostTypes\load_textdomain' );
+add_action( 'plugins_loaded', 'plugin\post_types\load_textdomain' );

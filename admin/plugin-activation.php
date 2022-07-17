@@ -1,7 +1,6 @@
 <?php
 
-namespace Core\PostTypes;
-
+namespace plugin\post_types;
 
 register_activation_hook( __FILE__, 'post_types_plugin_activate_flush_rewrite' );
 
@@ -11,6 +10,6 @@ register_activation_hook( __FILE__, 'post_types_plugin_activate_flush_rewrite' )
  * @since    1.0.0
  */
 function post_types_plugin_activate_flush_rewrite() {
-    register_post_types();
-    flush_rewrite_rules();
+	register_post_types();
+	flush_rewrite_rules();
 }

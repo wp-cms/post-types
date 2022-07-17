@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\PostTypes;
+namespace plugin\post_types;
 
 function deactivate() {
     flush_rewrite_rules();
